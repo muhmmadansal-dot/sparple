@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sparple .inc</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- Nav -->
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">Sparple<span>.inc</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="inkwell.html">Ink Well</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMobile()">About</a>
+    <a href="inkwell.html" onclick="closeMobile()">Ink Well</a>
+    <a href="contact.html" onclick="closeMobile()">Contact</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+      <div class="grid-lines"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge reveal-up" style="animation-delay:.1s">
+        <span class="badge-dot"></span>
+        Building the Future of Creative Tools
+      </div>
+
+      <h1 class="hero-title reveal-up" style="animation-delay:.25s">
+        <span class="title-sparple">Sparple</span>
+      </h1>
+
+      <div class="hero-product reveal-up" style="animation-delay:.45s">
+        <span class="product-line"></span>
+        <span class="product-name">Ink Well</span>
+        <span class="product-line"></span>
+      </div>
+
+      <p class="hero-sub reveal-up" style="animation-delay:.6s">
+        Crafting software for storytellers, creators &amp; visionaries.<br/>
+        Offline-first. Privacy-first. Built for mobile.
+      </p>
+
+      <div class="hero-actions reveal-up" style="animation-delay:.75s">
+        <a href="inkwell.html" class="btn-primary">
+          <span>Explore Ink Well</span>
+          <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <a href="#about" class="btn-ghost">Learn More</a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <!-- ABOUT / COMPANY -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-label">Who We Are</div>
+      <div class="about-grid">
+        <div class="about-left">
+          <h2 class="section-title">
+            A company<br/>
+            <em>built different</em>
+          </h2>
+        </div>
+        <div class="about-right">
+          <p>Sparple .inc is an independent technology company focused on building powerful, privacy-respecting tools for creators. We believe great software doesn't need the cloud to be smart.</p>
+          <p>Under Sparple, we incubate and ship products that solve real creative problems — starting with Ink Well, our flagship offline screenwriting studio for mobile.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-num" data-target="100">0</span><span>%</span>
+              <div class="stat-label">Offline First</div>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="2">0</span>
+              <div class="stat-label">Platforms</div>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="1">0</span>
+              <div class="stat-label">Vision</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCT CARD -->
+  <section class="products">
+    <div class="container">
+      <div class="section-label">Our Product</div>
+      <div class="product-card-hero">
+        <div class="product-card-bg"></div>
+        <div class="product-card-inner">
+          <div class="product-icon">
+            <svg viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="8" width="30" height="40" rx="3" stroke="currentColor" stroke-width="1.5"/>
+              <path d="M18 20h14M18 27h14M18 34h9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M38 28l8 4-8 4V28z" fill="currentColor" opacity=".6"/>
+            </svg>
+          </div>
+          <div class="product-card-text">
+            <h3>Ink Well</h3>
+            <p>The professional offline screenwriting studio for mobile. Write anywhere — no internet required. Auto-save, smart formatting, and a distraction-free canvas built for the modern storyteller.</p>
+            <div class="product-tags">
+              <span>Android</span>
+              <span>iOS</span>
+              <span>Offline</span>
+              <span>Auto-Save</span>
+            </div>
+            <a href="inkwell.html" class="btn-primary">
+              <span>Learn More</span>
+              <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALUES -->
+  <section class="values">
+    <div class="container">
+      <div class="section-label">Our Principles</div>
+      <div class="values-grid">
+        <div class="value-item">
+          <div class="value-num">01</div>
+          <h4>Offline First</h4>
+          <p>Your work lives on your device. No connectivity required, no data harvested, no subscriptions to write.</p>
+        </div>
+        <div class="value-item">
+          <div class="value-num">02</div>
+          <h4>Creator Focused</h4>
+          <p>Built by people who create, for people who create. Every decision is made with the storyteller in mind.</p>
+        </div>
+        <div class="value-item">
+          <div class="value-num">03</div>
+          <h4>Relentlessly Refined</h4>
+          <p>We obsess over details. From typography to touch targets, every pixel is intentional.</p>
+        </div>
+        <div class="value-item">
+          <div class="value-num">04</div>
+          <h4>Independent</h4>
+          <p>Sparple is founder-led and independent. We answer to our users — not to investors or algorithms.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="cta-inner">
+      <h2>Ready to write<br/><em>your story?</em></h2>
+      <p>Ink Well is coming soon to Android &amp; iOS. Be the first to know.</p>
+      <a href="contact.html" class="btn-primary large">
+        <span>Get in Touch</span>
+        <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <div class="footer-logo">Sparple<span>.inc</span></div>
+        <p>Building tools for creative minds.</p>
+      </div>
+      <div class="footer-links">
+        <a href="inkwell.html">Ink Well</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Founded by Ansal &nbsp;·&nbsp; An original product of Sparple</span>
+      <span>© 2025 Sparple .inc</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
