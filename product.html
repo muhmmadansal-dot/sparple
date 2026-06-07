@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+  ================================================================
+  SPARPLE .INC — UNIVERSAL PRODUCT PAGE  (product.html)
+  ================================================================
+  This single file renders EVERY product automatically.
+  It reads the ?id= from the URL and loads the matching JSON
+  file from /products/. You never need to edit this file.
+
+  Example URLs:
+    product.html?id=inkwell
+    product.html?id=myapp
+  ================================================================
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title is set dynamically from the product JSON -->
+  <title>Sparple .inc</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Sans:ital,wght@0,200;0,300;0,400;0,500;1,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <!-- All styling comes from the existing CSS — nothing new needed -->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/product-page.css" />
+</head>
+<body>
+
+  <!-- Custom Cursor (identical to all other pages) -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- Noise Overlay (identical to all other pages) -->
+  <div class="noise-overlay"></div>
+
+  <!-- Nav (identical to all other pages) -->
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav-logo">Sparple<span>.inc</span></a>
+    <div class="nav-links">
+      <a href="index.html#about">About</a>
+      <a href="index.html#products-section">Products</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="nav-hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu (identical to all other pages) -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html#about"            onclick="closeMobile()">About</a>
+    <a href="index.html#products-section" onclick="closeMobile()">Products</a>
+    <a href="contact.html"                onclick="closeMobile()">Contact</a>
+  </div>
+
+  <!--
+    PRODUCT CONTENT IS INJECTED HERE BY products.js
+    products.js reads the ?id= URL param, loads the JSON, and
+    fills in this div with the full product page HTML.
+  -->
+  <div id="product-page">
+    <!-- Loading state shown briefly while the JSON fetches -->
+    <div style="min-height:100vh;display:flex;align-items:center;justify-content:center;">
+      <div style="font-family:var(--font-mono);font-size:.75rem;letter-spacing:.15em;color:var(--text-dim);">Loading…</div>
+    </div>
+  </div>
+
+  <!-- Footer (identical to all other pages) -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <div class="footer-logo">Sparple<span>.inc</span></div>
+        <p>Building tools for creative minds.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Founded by Ansal &nbsp;·&nbsp; An original product of Sparple</span>
+      <span>© 2025 Sparple .inc</span>
+    </div>
+  </footer>
+
+  <!-- Core site behaviour (cursor, nav scroll, transitions, etc.) -->
+  <script src="js/main.js"></script>
+  <!-- Product content system — loads JSON and renders the page -->
+  <script src="js/products.js"></script>
+
+</body>
+</html>
