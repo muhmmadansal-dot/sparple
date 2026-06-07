@@ -1,0 +1,122 @@
+{
+  "_comment": "=======================================================",
+  "_comment2": "  SPARPLE PRODUCT FILE — inkwell.json",
+  "_comment3": "  To add a new product, duplicate this file, rename it,",
+  "_comment4": "  and fill in your own content. That's it.",
+  "_comment5": "=======================================================",
+
+  "id": "inkwell",
+
+  "meta": {
+    "title": "Ink Well — Sparple .inc",
+    "description": "The professional offline screenwriting studio for mobile."
+  },
+
+  "hero": {
+    "name": "Ink Well",
+    "tagline": "Write your screenplay anywhere.<br/>No internet. No excuses.",
+    "ctaLabel": "Join Waitlist",
+    "ctaHref": "contact.html",
+    "orbColors": {
+      "orb1": "rgba(180,140,90,0.25)",
+      "orb2": "rgba(100,80,50,0.2)"
+    },
+    "icon": "<svg viewBox='0 0 80 80' fill='none'><rect x='12' y='8' width='42' height='56' rx='4' stroke='currentColor' stroke-width='1.5'/><path d='M22 25h22M22 33h22M22 41h14' stroke='currentColor' stroke-width='1.5' stroke-linecap='round'/><path d='M52 38l12 6-12 6V38z' fill='currentColor' opacity='.5'/><circle cx='62' cy='20' r='8' fill='currentColor' opacity='.15' stroke='currentColor' stroke-width='1'/><path d='M59 20l2 2 4-4' stroke='currentColor' stroke-width='1.2' stroke-linecap='round' stroke-linejoin='round'/></svg>",
+    "platforms": [
+      { "label": "Android", "type": "android" },
+      { "label": "iOS",     "type": "ios" },
+      { "label": "100% Offline", "type": "offline" }
+    ],
+    "mockup": {
+      "show": true,
+      "screenTitle": "My Screenplay",
+      "lines": [
+        { "type": "slug",      "text": "INT. COFFEE SHOP - DAY" },
+        { "type": "action",    "text": "The café is quiet. JAMES, 30s, worn jacket, stares at a blank notebook." },
+        { "type": "character", "text": "JAMES" },
+        { "type": "dialogue",  "text": "This is where it begins." },
+        { "type": "action",    "text": "He picks up the pen. Smiles." }
+      ]
+    }
+  },
+
+  "featuresHeading": {
+    "label": "What It Does",
+    "title": "Every tool a<br/><em>screenwriter needs</em>"
+  },
+
+  "features": [
+    {
+      "size": "large",
+      "icon": "<svg viewBox='0 0 40 40' fill='none'><path d='M8 20h24M20 8v24' stroke='currentColor' stroke-width='1.5' stroke-linecap='round'/><rect x='4' y='4' width='32' height='32' rx='4' stroke='currentColor' stroke-width='1' opacity='.3'/></svg>",
+      "title": "Industry-Standard Formatting",
+      "body": "Automatic slug lines, action, character cues, dialogue, and transitions — formatted perfectly as you type. No manual spacing. Ever."
+    },
+    {
+      "icon": "<svg viewBox='0 0 40 40' fill='none'><path d='M20 8v16M14 18l6 6 6-6' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/><path d='M10 30h20' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' opacity='.5'/></svg>",
+      "title": "Auto-Save",
+      "body": "Every keystroke saved instantly. Never lose a word — even if the app closes unexpectedly."
+    },
+    {
+      "icon": "<svg viewBox='0 0 40 40' fill='none'><circle cx='20' cy='20' r='12' stroke='currentColor' stroke-width='1.5'/><path d='M20 14v6l4 4' stroke='currentColor' stroke-width='1.5' stroke-linecap='round'/></svg>",
+      "title": "Works Offline, Always",
+      "body": "No Wi-Fi? No problem. Write on a plane, in the mountains, anywhere — completely disconnected."
+    },
+    {
+      "icon": "<svg viewBox='0 0 40 40' fill='none'><rect x='8' y='8' width='10' height='14' rx='2' stroke='currentColor' stroke-width='1.5'/><rect x='22' y='14' width='10' height='18' rx='2' stroke='currentColor' stroke-width='1.5'/><path d='M8 28h24' stroke='currentColor' stroke-width='1' opacity='.4' stroke-linecap='round'/></svg>",
+      "title": "Scene Navigator",
+      "body": "Jump between scenes in a flash. Your entire screenplay always one tap away, beautifully organized."
+    },
+    {
+      "size": "large right",
+      "icon": "<svg viewBox='0 0 40 40' fill='none'><circle cx='20' cy='16' r='6' stroke='currentColor' stroke-width='1.5'/><path d='M8 32c0-6.627 5.373-12 12-12s12 5.373 12 12' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' opacity='.5'/></svg>",
+      "title": "Character Tracking",
+      "body": "Keep track of every character in your script. Ink Well learns names as you write and auto-completes them, keeping your cast organized."
+    },
+    {
+      "icon": "<svg viewBox='0 0 40 40' fill='none'><path d='M10 10h20v4H10zM10 20h14M10 28h18' stroke='currentColor' stroke-width='1.5' stroke-linecap='round'/></svg>",
+      "title": "Export Ready",
+      "body": "Export your finished screenplay as a PDF or plain text file, formatted and ready to send."
+    },
+    {
+      "icon": "<svg viewBox='0 0 40 40' fill='none'><path d='M20 6l3 9h9l-7 5 3 9-8-6-8 6 3-9-7-5h9z' stroke='currentColor' stroke-width='1.5' stroke-linejoin='round'/></svg>",
+      "title": "Distraction-Free Mode",
+      "body": "Full-screen writing mode strips everything away. Just you and your story — nothing else."
+    }
+  ],
+
+  "howItWorksHeading": {
+    "label": "How It Works",
+    "title": "Simple as<br/><em>pen and paper</em>"
+  },
+
+  "steps": [
+    {
+      "title": "Install & Open",
+      "body": "Download Ink Well on Android or iOS. No account required. No sign-in. Just open and write."
+    },
+    {
+      "title": "Start Writing",
+      "body": "Tap new screenplay. The editor formats your work automatically as you type — just focus on the story."
+    },
+    {
+      "title": "Save & Export",
+      "body": "Everything auto-saves locally. When you're ready, export as a PDF to share with directors, producers, or studios."
+    }
+  ],
+
+  "cta": {
+    "heading": "Your next script<br/><em>starts here</em>",
+    "sub": "Ink Well is coming soon. Join the waitlist and be first to write.",
+    "label": "Join the Waitlist",
+    "href": "contact.html"
+  },
+
+  "homepage": {
+    "cardIcon": "<svg viewBox='0 0 60 60' fill='none' xmlns='http://www.w3.org/2000/svg'><rect x='10' y='8' width='30' height='40' rx='3' stroke='currentColor' stroke-width='1.5'/><path d='M18 20h14M18 27h14M18 34h9' stroke='currentColor' stroke-width='1.5' stroke-linecap='round'/><path d='M38 28l8 4-8 4V28z' fill='currentColor' opacity='.6'/></svg>",
+    "cardTitle": "Ink Well",
+    "cardBody": "The professional offline screenwriting studio for mobile. Write anywhere — no internet required. Auto-save, smart formatting, and a distraction-free canvas built for the modern storyteller.",
+    "cardTags": ["Android", "iOS", "Offline", "Auto-Save"],
+    "cardCtaLabel": "Learn More"
+  }
+}
