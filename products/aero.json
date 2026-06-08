@@ -1,0 +1,74 @@
+{
+  "id": "aero",
+
+  "meta": {
+    "title": "Aero — Lightweight Web Saver",
+    "description": "A lightweight Chrome extension that lets you save anything from the web and find it later instantly."
+  },
+
+  "hero": {
+    "name": "Aero",
+    "tagline": "A better way to remember the internet.",
+    "ctaLabel": "Try Aero",
+    "ctaHref": "contact.html",
+    "platforms": [
+      { "label": "Chrome Extension", "type": "web" },
+      { "label": "Local Storage",    "type": "offline" },
+      { "label": "No Login",         "type": "privacy" }
+    ]
+  },
+
+  "featuresHeading": {
+    "label": "What It Does",
+    "title": "Save anything.<br/><em>Find it instantly.</em>"
+  },
+
+  "features": [
+    {
+      "title": "Save Anything",
+      "body": "Clip articles, ideas, links, or anything from the web in one click."
+    },
+    {
+      "title": "Search by Meaning",
+      "body": "Find saved content the way you remember it — not just by URL or title."
+    },
+    {
+      "title": "Fully Local",
+      "body": "Everything is stored locally on your device. No login, no cloud, no tracking."
+    },
+    {
+      "title": "Blazing Fast",
+      "body": "Built to be lightweight and instant. No lag, no waiting."
+    }
+  ],
+
+  "steps": [
+    {
+      "title": "Install Extension",
+      "body": "Add Aero to Chrome in one click."
+    },
+    {
+      "title": "Save Anything",
+      "body": "Click once on any webpage to save it instantly."
+    },
+    {
+      "title": "Find Instantly",
+      "body": "Search your saved content by ideas, not links."
+    }
+  ],
+
+  "cta": {
+    "heading": "Never lose the web again",
+    "sub": "Aero keeps your internet memories organized and searchable.",
+    "label": "Get Aero",
+    "href": "contact.html"
+  },
+
+  "homepage": {
+    "cardIcon": "<svg viewBox='0 0 60 60' fill='none' xmlns='http://www.w3.org/2000/svg'><circle cx='30' cy='30' r='20' stroke='currentColor' stroke-width='1.5' opacity='.3'/><path d='M20 30 Q30 18 40 30 Q30 42 20 30Z' stroke='currentColor' stroke-width='1.5' fill='none'/><circle cx='30' cy='30' r='4' fill='currentColor' opacity='.7'/><path d='M30 10v4M30 46v4M10 30h4M46 30h4' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' opacity='.4'/></svg>",
+    "cardTitle": "Aero",
+    "cardBody": "A lightweight Chrome extension to save anything from the web and find it instantly using idea-based search. Fully local. No login required.",
+    "cardTags": ["Chrome", "Offline", "Fast", "No Login"],
+    "cardCtaLabel": "Learn More"
+  }
+}
